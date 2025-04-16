@@ -1,0 +1,48 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.svn/
+.pub-cache/
+.packages
+build/
+
+# Android related
+android/.gradle/
+android/key.properties
+android/app/debug.keystore
+android/app/release.keystore
+
+# iOS related
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+ios/.dart_tool/
+
+# Web related
+web/.dart_tool/
+
+# macOS related
+macos/.dart_tool/
+macos/Flutter/ephemeral/
+
+# Windows related
+windows/.dart_tool/
+windows/flutter/ephemeral/
+
+# Linux related
+linux/.dart_tool/
+linux/flutter/ephemeral/
+
+# IntelliJ related
+.idea/
+
+# VS Code related
+.vscode/
+
+# Firebase related
+firebase_options.dart
+
+# Other
+*.iml
+*.log
+pubspec.lock

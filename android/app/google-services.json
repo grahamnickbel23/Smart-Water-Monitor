@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "578543500700",
+    "firebase_url": "https://water-controlling-default-rtdb.firebaseio.com",
+    "project_id": "water-controlling",
+    "storage_bucket": "water-controlling.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578543500700:android:64b1dec85dd2cecc259c59",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCicfpPuNDjHSod8U7AMV0g8B41BeXc-5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
