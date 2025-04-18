@@ -165,7 +165,7 @@ class AccountsPage extends StatelessWidget {
                       'This project was intiated as an small project in between break of two semester of 1st year of B.Tech at UEM. Project was started at the 2nd week of Jan 2025. \n'
                       'Initialy project was though to be completed in 2 weeks but with increasing number of fleature and complexity of the devolopemtent it take almost 3 monts. \n'
                       'This is uptill now leargest project devoloped by my with dedicated 3 monts of regrous coading and numerious faliure. \n \n'
-                      'For Info, if user get stuck in login page and can not log in due to otp number related issue user can tap not a member 6 or 7 times. \n'
+                      'For Info, if user get stuck in login page and can not log in due to otp number related issue user can tap not a member 2 times. \n'
                       'this will result opening of a popup that then can be used to chnage otp number',
                       style: TextStyle(fontSize: 17, color: Colors.black87),
                       textAlign: TextAlign.justify,
