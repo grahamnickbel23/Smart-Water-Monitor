@@ -110,6 +110,7 @@ class _DarlingPageState extends State<DarlingPage> {
       ),
       drawer: const MyDrawer(),
       body: SingleChildScrollView(
+        physics: const BouncingScrollPhysics(),
         child: Column(
           children: [
             const Padding(
@@ -121,8 +122,10 @@ class _DarlingPageState extends State<DarlingPage> {
             // function fot water Level
             GestureDetector(
               onDoubleTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const WaterdataComputed()));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const WaterdataComputed()));
               },
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 3),
@@ -195,92 +198,109 @@ class _DarlingPageState extends State<DarlingPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   // humidity
-                  GestureDetector(
-                    onDoubleTap: () {
-                      Navigator.push(
+                  Expanded(
+                    child: GestureDetector(
+                      onDoubleTap: () {
+                        Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const WeatherdataComputed()));
-                    },
-                    child: Container(
-                      width: 175,
-                      decoration: BoxDecoration(
+                            builder: (context) => const WeatherdataComputed(),
+                          ),
+                        );
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
                           color: Colors.white,
                           border:
                               Border.all(color: Colors.transparent, width: 2),
-                          borderRadius: BorderRadius.circular(15)),
-                      // get text
-                      child: Center(
-                        child: Column(
-                          children: [
-                            // humidity reading
-                            const Padding(
-                              padding: EdgeInsets.only(top: 10),
-                              child: Text(
-                                'Humidity (%)',
-                                style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
-                              ),
+                          borderRadius: BorderRadius.circular(15),
+                        ),
+                        // get text
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          child: Center(
+                            child: Column(
+                              children: [
+                                // humidity reading
+                                const Padding(
+                                  padding: EdgeInsets.only(top: 10),
+                                  child: Text(
+                                    'Humidity (%)',
+                                    style: TextStyle(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                                // humidity reading
+                                Text(
+                                  humidity,
+                                  style: const TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 60,
+                                      fontWeight: FontWeight.bold),
+                                  textAlign: TextAlign.center,
+                                ),
+                                const SizedBox(height: 5)
+                              ],
                             ),
-                            // humidity reading
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                  top: 3, left: 10, bottom: 3),
-                              child: Text(
-                                humidity,
-                                style: const TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 55,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                            )
-                          ],
+                          ),
                         ),
                       ),
                     ),
                   ),
 
+                  // space at the middle
+                  const SizedBox(width: 20),
+
                   // temparature
-                  GestureDetector(
-                    onDoubleTap: () {
-                      Navigator.push(
+                  Expanded(
+                    child: GestureDetector(
+                      onDoubleTap: () {
+                        Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const WeatherdataComputed()));
-                    },
-                    child: Container(
-                      width: 175,
-                      decoration: BoxDecoration(
+                            builder: (context) => const WeatherdataComputed(),
+                          ),
+                        );
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
                           color: Colors.white,
                           border:
                               Border.all(color: Colors.transparent, width: 2),
-                          borderRadius: BorderRadius.circular(15)),
-                      // get text
-                      child: Center(
-                        child: Column(
-                          children: [
-                            // humidity reading
-                            const Padding(
-                              padding: EdgeInsets.only(top: 10),
-                              child: Text(
-                                'Temp. (C)',
-                                style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
-                              ),
+                          borderRadius: BorderRadius.circular(15),
+                        ),
+                        // get text
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          child: Center(
+                            child: Column(
+                              children: [
+                                // humidity reading
+                                const Padding(
+                                  padding: EdgeInsets.only(top: 10),
+                                  child: Text(
+                                    'Temp. (C)',
+                                    style: TextStyle(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                                // temprature reading
+                                Text(
+                                  temperature,
+                                  style: const TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 60,
+                                      fontWeight: FontWeight.bold),
+                                  textAlign: TextAlign.center,
+                                ),
+                                const SizedBox(height: 5)
+                              ],
                             ),
-                            // temprature reading
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                  top: 3, left: 10, bottom: 3),
-                              child: Text(
-                                temperature,
-                                style: const TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 55,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                            )
-                          ],
+                          ),
                         ),
                       ),
                     ),

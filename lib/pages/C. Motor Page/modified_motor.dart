@@ -17,6 +17,7 @@ class ModifiedMotor extends StatelessWidget {
       ),
       body: SafeArea(
         child: SingleChildScrollView(
+          physics: const BouncingScrollPhysics(),
           child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -25,14 +26,14 @@ class ModifiedMotor extends StatelessWidget {
               SizedBox(height: MediaQuery.of(context).size.height * 0.0015),
               const SizedBox(height: 15),
               // electric connection status
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 15),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 15),
                 child: ElectricConnection(),
               ),
               const SizedBox(height: 15),
               // batery status
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 15),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 15),
                 child: BatteryInfo(),
               ),
               const SizedBox(height: 30),
@@ -41,7 +42,7 @@ class ModifiedMotor extends StatelessWidget {
                 child: MotorControl(),
               ),
 
-              const SizedBox(height: 2)
+              const SizedBox(height: 30)
             ],
           ),
         ),

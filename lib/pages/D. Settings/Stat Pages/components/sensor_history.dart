@@ -32,6 +32,7 @@ class _Sensor01DataState extends State<Sensor01Data> {
 
           return SingleChildScrollView(
             scrollDirection: Axis.vertical,
+            physics: const BouncingScrollPhysics(),
             child: Center(
               child: Column(
                 children: [

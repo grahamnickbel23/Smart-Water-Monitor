@@ -27,6 +27,7 @@ class _WaterSensorState extends State<WaterSensor> {
 
           return SingleChildScrollView(
             scrollDirection: Axis.vertical,
+            physics: const BouncingScrollPhysics(),
             child: Center(
               child: Column(
                 children: [

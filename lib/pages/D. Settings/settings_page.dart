@@ -18,6 +18,7 @@ class SettingsPage extends StatelessWidget {
           backgroundColor: Colors.redAccent,
         ),
         body: const SingleChildScrollView(
+          physics: BouncingScrollPhysics(),
           child: Column(
             children: [
               // free space

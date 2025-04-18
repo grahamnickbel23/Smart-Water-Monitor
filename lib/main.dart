@@ -30,11 +30,17 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const LifecycleHandler(
+    return MediaQuery(
+      data: MediaQuery.of(context)
+          .copyWith(textScaler: const TextScaler.linear(1.0)),
+      child: const LifecycleHandler(
         child: GetMaterialApp(
-            debugShowCheckedModeBanner: false,
-            home: Scaffold(
-              body: AuthGate(),
-            )));
+          debugShowCheckedModeBanner: false,
+          home: Scaffold(
+            body: AuthGate(),
+          ),
+        ),
+      ),
+    );
   }
 }

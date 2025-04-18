@@ -22,6 +22,7 @@ class LoginPage extends StatelessWidget {
       backgroundColor: Colors.grey.shade300,
       body: SafeArea(
         child: SingleChildScrollView(
+          physics: const BouncingScrollPhysics(),
           child: Center(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25),

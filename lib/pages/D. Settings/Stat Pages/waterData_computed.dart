@@ -25,6 +25,7 @@ class WaterdataComputed extends StatelessWidget{
 
           return SingleChildScrollView(
             scrollDirection: Axis.vertical,
+            physics: const BouncingScrollPhysics(),
             child: Center(
               child: Column(
                 children: [

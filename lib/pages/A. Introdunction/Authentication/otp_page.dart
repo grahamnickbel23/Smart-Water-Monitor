@@ -22,7 +22,7 @@ class _OtpPageState extends State<OtpPage> {
         backgroundColor: Colors.grey.shade400,
         body: SafeArea(
             child: SingleChildScrollView(
-                physics: BouncingScrollPhysics(),
+                physics: const BouncingScrollPhysics(),
                 child: Center(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -37,6 +37,7 @@ class _OtpPageState extends State<OtpPage> {
                           fontWeight: FontWeight.bold,
                           fontStyle: FontStyle.italic,
                         ),
+                        textAlign: TextAlign.center,
                       ),
 
                       // Animation

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/pages/E.%20Accounts/full_Image_page.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AccountsPage extends StatelessWidget {
@@ -24,9 +25,18 @@ class AccountsPage extends StatelessWidget {
         child: Column(
           children: [
             const SizedBox(height: 15),
-            const CircleAvatar(
-              radius: 100,
-              backgroundImage: AssetImage('assets/pictures/My Face Photo.jpg'),
+            GestureDetector(
+              onDoubleTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const FullImagePage()),
+                );
+              },
+              child: const CircleAvatar(
+                radius: 100,
+                backgroundImage:
+                    AssetImage('assets/pictures/My Face Photo.jpg'),
+              ),
             ),
             const SizedBox(height: 10),
 
@@ -34,7 +44,6 @@ class AccountsPage extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-
                 // linkdin image with link of my profile
                 IconButton(
                   icon: Image.network(
@@ -43,7 +52,7 @@ class AccountsPage extends StatelessWidget {
                     height: 45,
                   ),
                   onPressed: () {
-                    _launchURL('www.linkedin.com/in/dipan-lahiri');
+                    _launchURL('https://www.linkedin.com/in/dipan-lahiri/');
                   },
                 ),
 
@@ -69,7 +78,8 @@ class AccountsPage extends StatelessWidget {
                     height: 45,
                   ),
                   onPressed: () {
-                    _launchURL('https://gitlab.com/web-devolopment1/water-management'); // Dummy link
+                    _launchURL(
+                        'https://gitlab.com/web-devolopment1/water-management'); // Dummy link
                   },
                 ),
 
