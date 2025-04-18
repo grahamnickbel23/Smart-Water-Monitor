@@ -1,4 +1,4 @@
-package com.example.myapp
+package com.water.assistant
 
 import io.flutter.embedding.android.FlutterFragmentActivity;
 
