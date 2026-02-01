@@ -58,19 +58,19 @@ The mobile app is built using **Flutter** and connects directly to **Firebase**.
 - dedicated pages for user learning how to use the app
 - in app screensever for first Time user 
 
-![Landing Page](screenshots/Landing-Screen.jpeg)
-![User Onbording](screenshots/user-onbord-01.jpeg)
-![User Onbording](screenshots/user-onbord-02.jpeg)
-![User Onbording](screenshots/user-onbord-03.jpeg)
-![Transition Page](screenshots/loading-screen.jpeg)
+<img src="screenshots/landing_screen.jpg" width="220" />
+<img src="screenshots/user-onbord-01.jpg" width="220" />
+<img src="screenshots/user-onbord-02.jpg" width="220" />
+<img src="screenshots/user-onbord-03.jpg" width="220" />
+<img src="screenshots/loading_screen.jpg" width="220" />
 
 #### Authentication
 
 - secure autentication system
 - logout feature
 
-![Login Page](screenshots/logIn-screen.jpeg)
-![Loading Page](screenshots/logging-in-screen.jpeg)
+<img src="screenshots/logIn-screen.jpeg" width="220" />
+<img src="screenshots/logging-in-screen.jpeg" width="220" />
 
 #### Home Screen Features
 
@@ -78,8 +78,8 @@ The mobile app is built using **Flutter** and connects directly to **Firebase**.
 - Current **temperature & humidity**
 - **Real-time updates** from Firebase RTDB
 
-![Home Screen](screenshots/Hone-Screen-Notification.jpeg)
-![Side Bar](screenshots/side-pannel.jpeg)
+<img src="screenshots/Hone-Screen-Notification.jpeg" width="220" />
+<img src="screenshots/side-pannel.jpeg" width="220" />
 ---
 
 ## Alerts & Drainage Control
@@ -94,7 +94,7 @@ The user can then:
   **OR**
 - **Trigger the motor remotely** from the app
 
-![Motor Control](screenshots/motor-started-screen.jpeg)
+<img src="screenshots/motor-started-screen.jpeg" width="220" />
 
 ### Motor Control Logic
 
@@ -136,7 +136,7 @@ The application supports **two user levels**:
 
 This role separation was implemented to explore **basic access control and data governance concepts**.
 
-![settings page](screenshots/setting-page.jpeg)
+<img src="screenshots/setting-page.jpeg" width="220" />
 
 ---
 
