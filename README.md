@@ -58,19 +58,23 @@ The mobile app is built using **Flutter** and connects directly to **Firebase**.
 - dedicated pages for user learning how to use the app
 - in app screensever for first Time user 
 
+<p>
 <img src="screenshots/Landing-Screen.jpeg" width="220" />
 <img src="screenshots/user-onbord-01.jpeg" width="220" />
 <img src="screenshots/user-onbord-02.jpeg" width="220" />
 <img src="screenshots/user-onbord-03.jpeg" width="220" />
 <img src="screenshots/loading-screen.jpeg" width="220" />
+</p>
 
 #### Authentication
 
 - secure autentication system
 - logout feature
 
+<p>
 <img src="screenshots/logIn-screen.jpeg" width="220" />
 <img src="screenshots/logging-in-screen.jpeg" width="220" />
+</p>
 
 #### Home Screen Features
 
@@ -78,8 +82,10 @@ The mobile app is built using **Flutter** and connects directly to **Firebase**.
 - Current **temperature & humidity**
 - **Real-time updates** from Firebase RTDB
 
+<p>
 <img src="screenshots/Hone-Screen-Notification.jpeg" width="220" />
 <img src="screenshots/side-pannel.jpeg" width="220" />
+</p>
 ---
 
 ## Alerts & Drainage Control
