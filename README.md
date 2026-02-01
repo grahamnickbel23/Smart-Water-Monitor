@@ -58,11 +58,11 @@ The mobile app is built using **Flutter** and connects directly to **Firebase**.
 - dedicated pages for user learning how to use the app
 - in app screensever for first Time user 
 
-<img src="screenshots/landing_screen.jpg" width="220" />
-<img src="screenshots/user-onbord-01.jpg" width="220" />
-<img src="screenshots/user-onbord-02.jpg" width="220" />
-<img src="screenshots/user-onbord-03.jpg" width="220" />
-<img src="screenshots/loading_screen.jpg" width="220" />
+<img src="screenshots/Landing-Screen.jpeg" width="220" />
+<img src="screenshots/user-onbord-01.jpeg" width="220" />
+<img src="screenshots/user-onbord-02.jpeg" width="220" />
+<img src="screenshots/user-onbord-03.jpeg" width="220" />
+<img src="screenshots/loading-screen.jpeg" width="220" />
 
 #### Authentication
 
