@@ -179,6 +179,6 @@ This role separation was implemented to explore **basic access control and data 
 
 ### Full System
 
-<img src="screenshots/full system.jpeg" width="220" />
+<img src="screenshots/full system.jpeg" width="320" />
 
 ---
