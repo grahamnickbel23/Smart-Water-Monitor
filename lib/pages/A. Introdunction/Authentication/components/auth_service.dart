@@ -152,7 +152,7 @@ class AuthService {
         requestNotificationPermission();
       });
 
-      print("
+      print("Sign-in successful!");
     } on FirebaseAuthException catch (e) {
       MyDialog.show(
         context,
@@ -160,7 +160,7 @@ class AuthService {
         contentText: e.message ?? 'An error occurred',
         buttonText: 'Redo',
       );
-      print("
+      print("Error during sign-in: $e");
     }
   }
 
@@ -201,6 +201,6 @@ class AuthService {
     print("register initial value: $_factor");
     //now calculating
     _callCount = _factor + 1;
-    print("
+    print("register Executed: $_callCount");
   }
 }

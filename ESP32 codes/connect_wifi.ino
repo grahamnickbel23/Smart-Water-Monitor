@@ -1,8 +1,8 @@
 #include <WiFi.h>  // ESP32 Wi-Fi Library
 
 // Define Wi-Fi credentials
-const char* ssid = "";       
-const char* password = "";
+const char* ssid = "<put your wifi id />";       
+const char* password = "<put your wifi password />";
 
 void setupWiFi() {
   Serial.print("Connecting to Wi-Fi: ");

@@ -5,11 +5,11 @@ Future<void> requestNotificationPermission() async {
   if (!status.isGranted) {
     var result = await Permission.notification.request();
     if (result.isGranted) {
-      print("
+      print("Notification permission granted");
     } else {
-      print("
+      print("Notification permission denied");
     }
   } else {
-    print("
+    print("Notification permission already granted");
   }
 }
