@@ -58,19 +58,19 @@ The mobile app is built using **Flutter** and connects directly to **Firebase**.
 - dedicated pages for user learning how to use the app
 - in app screensever for first Time user 
 
-![Landing Page](screenshots\Landing-Screen.jpeg)
-![User Onbording](screenshots\user-onbord-01.jpeg)
-![User Onbording](screenshots\user-onbord-02.jpeg)
-![User Onbording](screenshots\user-onbord-03.jpeg)
-![Transition Page](screenshots\loading-screen.jpeg)
+![Landing Page](screenshots/Landing-Screen.jpeg)
+![User Onbording](screenshots/user-onbord-01.jpeg)
+![User Onbording](screenshots/user-onbord-02.jpeg)
+![User Onbording](screenshots/user-onbord-03.jpeg)
+![Transition Page](screenshots/loading-screen.jpeg)
 
 #### Authentication
 
 - secure autentication system
 - logout feature
 
-![Login Page](screenshots\logIn-screen.jpeg)
-![Loading Page](screenshots\logging-in-screen.jpeg)
+![Login Page](screenshots/logIn-screen.jpeg)
+![Loading Page](screenshots/logging-in-screen.jpeg)
 
 #### Home Screen Features
 
@@ -78,8 +78,8 @@ The mobile app is built using **Flutter** and connects directly to **Firebase**.
 - Current **temperature & humidity**
 - **Real-time updates** from Firebase RTDB
 
-![Home Screen](screenshots\Hone-Screen-Notification.jpeg)
-![Side Bar](screenshots\side-pannel.jpeg)
+![Home Screen](screenshots/Hone-Screen-Notification.jpeg)
+![Side Bar](screenshots/side-pannel.jpeg)
 ---
 
 ## Alerts & Drainage Control
@@ -94,7 +94,7 @@ The user can then:
   **OR**
 - **Trigger the motor remotely** from the app
 
-![Motor Control](screenshots\motor-started-screen.jpeg)
+![Motor Control](screenshots/motor-started-screen.jpeg)
 
 ### Motor Control Logic
 
@@ -136,7 +136,7 @@ The application supports **two user levels**:
 
 This role separation was implemented to explore **basic access control and data governance concepts**.
 
-![settings page](screenshots\setting-page.jpeg)
+![settings page](screenshots/setting-page.jpeg)
 
 ---
 
