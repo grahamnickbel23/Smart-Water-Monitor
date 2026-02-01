@@ -177,5 +177,8 @@ This role separation was implemented to explore **basic access control and data 
 - Firebase Cloud Functions
 - ESP32 Wi-Fi communication
 
----
+### Full System
 
+<img src="screenshots/full system.jpeg" width="220" />
+
+---
